@@ -1,2 +1,33 @@
+logging:
+  level:
+    com.novonity.knight: INFO
+    com.novonity.spring.cloud: INFO
+    org.springframework.web: INFO
+    org.hibernate: INFO
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank_test?characterEncoding=utf8&useSSL=true&autoReconnect=true&failOverReadOnly=false&tinyInt1isBit=false
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+#  redis:
+#      database: 1
+#      host: localhost
+#      port: 6379
+#      password:
+#      timeout: 5000ms
+#      lettuce:
+#        pool:
+#          max-idle: 8
+#          min-idle: 0
+#          max-active: 8
+#          max-wait: -1ms
+#          shutdown-timeout: 100ms
+
+knight:
+#  server:
+#    host: 127.0.0.1
+
 config:
-  base_fixed: 0
+  base_fixed: 2
