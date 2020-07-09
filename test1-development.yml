@@ -30,4 +30,4 @@ knight:
 #    host: 127.0.0.1
 
 config:
-  base_fixed: 12
+  base_fixed: 1
